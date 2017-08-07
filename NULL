@@ -1,0 +1,5 @@
+No scheduled commands are ready to run.
+Running scheduled command: Closure
+Running scheduled command: "C:\xampp\php\php.exe" "artisan" inspire > "NUL" 2>&1 &
+Running scheduled command: "C:\xampp\php\php.exe" "artisan" inspire > "NUL" 2>&1 &
+Running scheduled command: "C:\xampp\php\php.exe" "artisan" inspire > "NUL" 2>&1 &

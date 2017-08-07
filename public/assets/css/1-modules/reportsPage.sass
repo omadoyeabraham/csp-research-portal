@@ -1,0 +1,46 @@
+#reports-page-wrapper
+	position: relative
+	height: 100%
+	&:before
+		content: ''
+		display: block
+		position: absolute
+		left: 0
+		top: 0
+		width: 100%
+		height: 100%
+		z-index: -1
+		opacity: .9
+		background: url('../img/10.jpg')
+		background-size: cover
+	.inner-wrapper
+		background: #ccc
+	
+	.section-heading
+		font-size: 1.5em
+		padding: 5px 20px
+		margin: 5px auto
+		margin-bottom: 15px
+		
+	#filter-reports-form
+		position: relative
+		top: 25px
+		z-index: 99999
+	table.reportsPageTable
+		thead
+			background: rgba($CardinalStone-blue, 1)
+			color: #fff
+		tbody
+			tr
+				td
+					color: $CardinalStone-blue
+					a
+						color: $link-color
+					.btn-reports-page
+						color: rgba(#fff, 1)
+						padding: 3px 5px
+						font-weight: 300
+					.btn-reports-page-delete
+						color: #fff
+						background: #E45858
+		

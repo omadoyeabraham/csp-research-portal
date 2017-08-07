@@ -1,0 +1,24 @@
+@import "0-tools/normalize.scss";
+@import "0-tools/bootstrap4.min.scss";
+@import "0-tools/bootstrap.scss";
+@import "0-tools/animate.scss";
+@import "0-tools/vars.scss";
+@import "0-tools/jqueryDataTables.min.scss";
+@import "0-tools/angular-datatables.min.scss";
+//@import "0-tools/equal-height-columns.scss";
+
+
+@import "1-modules/general.sass";
+@import "1-modules/myNavbar.sass";
+@import "1-modules/homepage.sass";
+@import "1-modules/reportsPage.sass";
+@import "1-modules/corporateResultsPage.sass";
+@import "1-modules/loginPage.sass";
+@import "1-modules/registerPage.sass";
+@import "1-modules/marketDataPage.sass";
+@import "1-modules/adminUploads.sass";
+@import "1-modules/adminHomepage.sass";
+@import "1-modules/instrumentSearchPage.sass";
+@import "1-modules/bondPage.sass";
+
+

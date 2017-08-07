@@ -1,0 +1,974 @@
+{
+	"symbols": [{
+		"id": 1,
+		"name": "7UP",
+		"label": "7-UP BOTTLING COMP. PLC.",
+		"security_id": 1
+	}, {
+		"id": 3,
+		"name": "ABBEYBDS",
+		"label": "ABBEY BUILDING SOCIETY PLC",
+		"security_id": 3
+	}, {
+		"id": 4,
+		"name": "ABCTRANS",
+		"label": "ABC TRANSPORT COMPANY PLC",
+		"security_id": 4
+	}, {
+		"id": 7,
+		"name": "ACADEMY",
+		"label": "ACADEMY PRESS PLC.",
+		"security_id": 7
+	}, {
+		"id": 9,
+		"name": "ACCESS",
+		"label": "ACCESS BANK PLC",
+		"security_id": 9
+	}, {
+		"id": 16,
+		"name": "AFRIK",
+		"label": "AFRIK PHARMACEUTICALS PLC.",
+		"security_id": 16
+	}, {
+		"id": 17,
+		"name": "AFRINSURE",
+		"label": "AFRICAN ALLIANCE INSURANCE COMPANY PLC ",
+		"security_id": 17
+	}, {
+		"id": 18,
+		"name": "AFRIPRUD",
+		"label": "AFRICA PRUDENTIAL REGISTRARS PLC",
+		"security_id": 18
+	}, {
+		"id": 313,
+		"name": "AFROMEDIA",
+		"label": "AFROMEDIA PLC",
+		"security_id": 313
+	}, {
+		"id": 20,
+		"name": "AFRPAINTS",
+		"label": "AFRICAN PAINTS (NIGERIA) PLC",
+		"security_id": 20
+	}, {
+		"id": 22,
+		"name": "AGLEVENT",
+		"label": "A.G. LEVENTIS NIGERIA PLC.",
+		"security_id": 22
+	}, {
+		"id": 23,
+		"name": "AIICO",
+		"label": "AIICO INSURANCE PLC.",
+		"security_id": 23
+	}, {
+		"id": 24,
+		"name": "AIRSERVICE",
+		"label": "AIRLINE SERVICES AND LOGISTICS COMPANY PLC",
+		"security_id": 24
+	}, {
+		"id": 26,
+		"name": "ALEX",
+		"label": "ALUMINIUM EXTRUSION INDUSTIES PLC.",
+		"security_id": 26
+	}, {
+		"id": 30,
+		"name": "ARBICO",
+		"label": "ARBICO PLC.",
+		"security_id": 30
+	}, {
+		"id": 32,
+		"name": "ASHAKACEM",
+		"label": "ASHAKA CEM PLC",
+		"security_id": 32
+	}, {
+		"id": 33,
+		"name": "ASOSAVINGS",
+		"label": "ASO SAVINGS & LOANS PLC",
+		"security_id": 33
+	}, {
+		"id": 327,
+		"name": "AUSTINLAZ",
+		"label": "AUSTINLAZ COMPANY PLC",
+		"security_id": 327
+	}, {
+		"id": 36,
+		"name": "AVONCROWN",
+		"label": "AVON CROWNCAPS & CONTAINERS NIG. PLC",
+		"security_id": 36
+	}, {
+		"id": 43,
+		"name": "BECOPETRO",
+		"label": "BECO PETROLEUM PRODUCT PLC",
+		"security_id": 43
+	}, {
+		"id": 44,
+		"name": "BERGER",
+		"label": "BERGER PAINTS NIGERIA PLC",
+		"security_id": 44
+	}, {
+		"id": 45,
+		"name": "BETAGLAS",
+		"label": "BETA GLASS COMPANY NIGERIA PLC",
+		"security_id": 45
+	}, {
+		"id": 50,
+		"name": "BOCGAS",
+		"label": "B.O.C GASES NIGERIA PLC",
+		"security_id": 50
+	}, {
+		"id": 52,
+		"name": "CADBURY",
+		"label": "CADBURY PLC.",
+		"security_id": 52
+	}, {
+		"id": 53,
+		"name": "CAP",
+		"label": "CAP PLC",
+		"security_id": 53
+	}, {
+		"id": 55,
+		"name": "CAPHOTEL",
+		"label": "CAPITAL HOTELS PLC",
+		"security_id": 55
+	}, {
+		"id": 56,
+		"name": "CAPOIL",
+		"label": "CAPITAL OIL PLC",
+		"security_id": 56
+	}, {
+		"id": 329,
+		"name": "CAVERTON",
+		"label": "CAVERTON OFFSHORE SUPPORT GRP PLC",
+		"security_id": 329
+	}, {
+		"id": 57,
+		"name": "CCNN",
+		"label": "CEMENT COMPANY OF NORTHERN NIGERIA",
+		"security_id": 57
+	}, {
+		"id": 406,
+		"name": "CHAMPBRIGHTS",
+		"label": "CHAMPBRIGHTS",
+		"security_id": 406
+	}, {
+		"id": 60,
+		"name": "CHAMPION",
+		"label": "CHAMPION BREWERIES PLC",
+		"security_id": 60
+	}, {
+		"id": 61,
+		"name": "CHAMS",
+		"label": "CHAMS PLC",
+		"security_id": 61
+	}, {
+		"id": 63,
+		"name": "CHELLARAM",
+		"label": "CHELLARAMS PLC.",
+		"security_id": 63
+	}, {
+		"id": 66,
+		"name": "CILEASING",
+		"label": "C& I LEASING",
+		"security_id": 66
+	}, {
+		"id": 68,
+		"name": "CONOIL",
+		"label": "CONOIL NIGERIA PLC",
+		"security_id": 68
+	}, {
+		"id": 69,
+		"name": "CONTINSURE",
+		"label": "CONTINENTAL REINSURANCE PLC",
+		"security_id": 69
+	}, {
+		"id": 72,
+		"name": "CORNERST",
+		"label": "CORNERSTONE INSURANCE COMPANY PLC.",
+		"security_id": 72
+	}, {
+		"id": 314,
+		"name": "COURTVILLE",
+		"label": "COURTVILLE INVESTMENTS PLC",
+		"security_id": 314
+	}, {
+		"id": 75,
+		"name": "CUSTODYINS",
+		"label": "CUSTODIAN AND ALLIED INSURANCE PLC",
+		"security_id": 75
+	}, {
+		"id": 76,
+		"name": "CUTIX",
+		"label": "CUTIX PLC",
+		"security_id": 76
+	}, {
+		"id": 316,
+		"name": "CWG",
+		"label": "COMPUTER WAREHOUSE GROUP PLC",
+		"security_id": 316
+	}, {
+		"id": 78,
+		"name": "DAARCOMM",
+		"label": "DAAR COMMUNICATIONS PLC",
+		"security_id": 78
+	}, {
+		"id": 79,
+		"name": "DANGCEM",
+		"label": "DANGOTE CEMENT PLC",
+		"security_id": 79
+	}, {
+		"id": 80,
+		"name": "DANGFLOUR",
+		"label": "DANGOTE FLOUR MILLS PLC",
+		"security_id": 80
+	}, {
+		"id": 81,
+		"name": "DANGSUGAR",
+		"label": "DANGOTE SUGAR REFINERY PLC",
+		"security_id": 81
+	}, {
+		"id": 83,
+		"name": "DEAPCAP",
+		"label": "DEAP CAPITAL MANAGEMENT & TRUST PLC",
+		"security_id": 83
+	}, {
+		"id": 84,
+		"name": "DIAMONDBNK",
+		"label": "DIAMOND BANK PLC",
+		"security_id": 84
+	}, {
+		"id": 88,
+		"name": "DUNLOP",
+		"label": "DUNLOP NIGERIA PLC.",
+		"security_id": 88
+	}, {
+		"id": 91,
+		"name": "EKOCORP",
+		"label": "EKOCORP PLC.",
+		"security_id": 91
+	}, {
+		"id": 92,
+		"name": "ELLAHLAKES",
+		"label": "ELLAH LAKES PLC.",
+		"security_id": 92
+	}, {
+		"id": 93,
+		"name": "ENAMELWA",
+		"label": "NIGERIAN ENAMELWARE PLC",
+		"security_id": 93
+	}, {
+		"id": 96,
+		"name": "EQUITYASUR",
+		"label": "EQUITY ASSURANCE PLC",
+		"security_id": 96
+	}, {
+		"id": 306,
+		"name": "ETERNA",
+		"label": "ETERNA PLC",
+		"security_id": 306
+	}, {
+		"id": 98,
+		"name": "ETI",
+		"label": "ECOBANK TRANSNATIONAL INCORPORATED",
+		"security_id": 98
+	}, {
+		"id": 100,
+		"name": "ETRANZACT",
+		"label": "E-TRANZACT INTERNATIONAL PLC",
+		"security_id": 100
+	}, {
+		"id": 101,
+		"name": "EVANSMED",
+		"label": "EVANS MEDICAL PLC.",
+		"security_id": 101
+	}, {
+		"id": 102,
+		"name": "FBNH",
+		"label": "FBN HOLDINGS PLC",
+		"security_id": 102
+	}, {
+		"id": 102,
+		"name": "FBNH",
+		"label": "FBN HOLDINGS PLC",
+		"security_id": 102
+	}, {
+		"id": 103,
+		"name": "FCMB",
+		"label": "FCMB GROUP PLC",
+		"security_id": 103
+	}, {
+		"id": 408,
+		"name": "FG112034S2",
+		"label": "FG112034S2",
+		"security_id": 408
+	}, {
+		"id": 105,
+		"name": "FIDELITYBK",
+		"label": "FIDELITY BANK PLC",
+		"security_id": 105
+	}, {
+		"id": 106,
+		"name": "FIDSON",
+		"label": "FIDSON HEALTHCARE PLC",
+		"security_id": 106
+	}, {
+		"id": 107,
+		"name": "FIRSTALUM",
+		"label": "FIRST ALUMINIUM NIGERIA PLC ",
+		"security_id": 107
+	}, {
+		"id": 115,
+		"name": "FLOURMILL",
+		"label": "FLOUR MILLS PLC.",
+		"security_id": 115
+	}, {
+		"id": 116,
+		"name": "FO",
+		"label": "FORTE OIL PLC",
+		"security_id": 116
+	}, {
+		"id": 326,
+		"name": "FORTISMFB",
+		"label": "FORTIS MICROFINANCE BANK PLC",
+		"security_id": 326
+	}, {
+		"id": 315,
+		"name": "FTNCOCOA",
+		"label": "FTNCOCOA",
+		"security_id": 315
+	}, {
+		"id": 121,
+		"name": "GLAXOSMITH",
+		"label": "GLAXOSMITHKLINE CONSUMER NIG PLC",
+		"security_id": 121
+	}, {
+		"id": 122,
+		"name": "GNI",
+		"label": "GREAT NIGERIA INSURANCE PLC",
+		"security_id": 122
+	}, {
+		"id": 123,
+		"name": "GOLDBREW",
+		"label": "GOLDENBREW GUINEA PLV",
+		"security_id": 123
+	}, {
+		"id": 124,
+		"name": "GOLDINSURE",
+		"label": "GOLDLINK INSURANCE PLC",
+		"security_id": 124
+	}, {
+		"id": 126,
+		"name": "GUARANTY",
+		"label": "GUARANTY TRUST BANK PLC",
+		"security_id": 126
+	}, {
+		"id": 128,
+		"name": "GUINEAINS",
+		"label": "GUINEA INSURANCE PLC.",
+		"security_id": 128
+	}, {
+		"id": 129,
+		"name": "GUINNESS",
+		"label": "GUINNESS NIGERIA PLC",
+		"security_id": 129
+	}, {
+		"id": 134,
+		"name": "HMARKINS",
+		"label": "CONSOLIDATED HALLMARK INSURANCE PLC",
+		"security_id": 134
+	}, {
+		"id": 136,
+		"name": "HONYFLOUR",
+		"label": "HONEYWELL FLOURMILLS PLC",
+		"security_id": 136
+	}, {
+		"id": 140,
+		"name": "IKEJAHOTEL",
+		"label": "IKEJA HOTEL PLC",
+		"security_id": 140
+	}, {
+		"id": 320,
+		"name": "INFINITY",
+		"label": "INFINITY TRUST MORTGAGE BANK PLC",
+		"security_id": 320
+	}, {
+		"id": 145,
+		"name": "INTBREW",
+		"label": "INTERNATIONAL BREWERIES PLC.",
+		"security_id": 145
+	}, {
+		"id": 146,
+		"name": "INTENEGINS",
+		"label": "INTERNATIONAL ENERGY INSURANCE COY PLC",
+		"security_id": 146
+	}, {
+		"id": 148,
+		"name": "INTERLINK",
+		"label": "INTERLINKED TECHNOLOGIES PLC",
+		"security_id": 148
+	}, {
+		"id": 151,
+		"name": "JAPAULOIL",
+		"label": "JAPAUL OIL & MARINE SERVICE PLC",
+		"security_id": 151
+	}, {
+		"id": 152,
+		"name": "JBERGER",
+		"label": "JULIUS BERGER PLC",
+		"security_id": 152
+	},
+	 {
+		"id": 155,
+		"name": "JULI",
+		"label": "JULI PLC.",
+		"security_id": 155
+	}, {
+		"id": 155,
+		"name": "JULI",
+		"label": "JULI PLC.",
+		"security_id": 155
+	}, {
+		"id": 157,
+		"name": "LASACO",
+		"label": "LASACO ASSURANCE PLC.",
+		"security_id": 157
+	}, {
+		"id": 158,
+		"name": "LAWUNION",
+		"label": "LAW UNION AND ROCK INSURANCE PLC",
+		"security_id": 158
+	}, {
+		"id": 159,
+		"name": "LEARNAFRCA",
+		"label": "LEARN AFRICA PLC",
+		"security_id": 159
+	}, {
+		"id": 162,
+		"name": "LINKASSURE",
+		"label": "LINKAGE ASSURANCE PLC",
+		"security_id": 162
+	}, {
+		"id": 164,
+		"name": "LIVESTOCK",
+		"label": "LIVESTOCK FEEDS PLC",
+		"security_id": 164
+	}, {
+		"id": 439,
+		"name": "LOTUSHAL15",
+		"label": "LOTUS HALAL EQUITY ETF",
+		"security_id": 439
+	}, {
+		"id": 439,
+		"name": "LOTUSHAL15",
+		"label": "LOTUS HALAL EQUITY ETF",
+		"security_id": 439
+	}, {
+		"id": 170,
+		"name": "MANSARD",
+		"label": "AXA MANSARD INSURANCE PLC",
+		"security_id": 170
+	}, {
+		"id": 173,
+		"name": "MAYBAKER",
+		"label": "MAY & BAKER",
+		"security_id": 173
+	}, {
+		"id": 174,
+		"name": "MBENEFIT",
+		"label": "MUTUAL BENEFIT ASSURANCE",
+		"security_id": 174
+	}, {
+		"id": 318,
+		"name": "MCNICHOLS",
+		"label": "MCNICHOLS CONSOLIDATED PLC NIGERIA",
+		"security_id": 318
+	}, {
+		"id": 318,
+		"name": "MCNICHOLS",
+		"label": "MCNICHOLS CONSOLIDATED PLC NIGERIA",
+		"security_id": 318
+	}, {
+		"id": 177,
+		"name": "MOBIL",
+		"label": "MOBIL OIL NIG PLC.",
+		"security_id": 177
+	}, {
+		"id": 178,
+		"name": "MORISON",
+		"label": "MORISON INDUSTRIES PLC.",
+		"security_id": 178
+	}, {
+		"id": 179,
+		"name": "MRS",
+		"label": "MRS OIL NIGERIA PLC",
+		"security_id": 179
+	}, {
+		"id": 180,
+		"name": "MTECH",
+		"label": "MTECH COMMUNICATIONS PLC",
+		"security_id": 180
+	}, {
+		"id": 181,
+		"name": "MTI",
+		"label": "MASS TELECOMS INNOVATION PLC",
+		"security_id": 181
+	}, {
+		"id": 317,
+		"name": "MULTITREX",
+		"label": "MULTI-TREX INTEGRATED FOODS PLC",
+		"security_id": 317
+	}, {
+		"id": 182,
+		"name": "MULTIVERSE",
+		"label": "MULTIVERSE MINING AND EXPLORATION PLC",
+		"security_id": 182
+	}, {
+		"id": 183,
+		"name": "NAHCO",
+		"label": "NIGERIAN AVIATION HANDLING COMPANY",
+		"security_id": 183
+	}, {
+		"id": 186,
+		"name": "NASCON",
+		"label": "NASCON ALLIED INDUSTRIES PLC",
+		"security_id": 186
+	}, {
+		"id": 187,
+		"name": "NB",
+		"label": "NIGERIAN BREWERIES PLC",
+		"security_id": 187
+	}, {
+		"id": 189,
+		"name": "NCR",
+		"label": "AT&T GLOBAL INFORMATION SOLUTIONS PLC",
+		"security_id": 189
+	}, {
+		"id": 190,
+		"name": "NEIMETH",
+		"label": "NEIMETH INTERNATIONAL PHARMACEUTICALS PLC",
+		"security_id": 190
+	}, {
+		"id": 191,
+		"name": "NEM",
+		"label": "N.E.M INSURANCE CO. PLC.",
+		"security_id": 191
+	}, {
+		"id": 192,
+		"name": "NESF",
+		"label": "NIGERIA ENERGY SECTOR FUND",
+		"security_id": 192
+	}, {
+		"id": 193,
+		"name": "NESTLE",
+		"label": "NESTLE FOODS PLC",
+		"security_id": 193
+	}, {
+		"id": 404,
+		"name": "NEWGOLD",
+		"label": "NEWGOLD EXCHANGE TRADED FUND",
+		"security_id": 404
+	}, {
+		"id": 198,
+		"name": "NIG-GERMAN",
+		"label": "NIGERIA-GERMAN CHEMICALS PLC.",
+		"security_id": 198
+	}, {
+		"id": 200,
+		"name": "NIGERINS",
+		"label": "NIGER INSURANCE CO. PLC.",
+		"security_id": 200
+	}, {
+		"id": 207,
+		"name": "NNFM",
+		"label": "NORTHERN NIGERIA FLOUR MILLS PLC.",
+		"security_id": 207
+	}, {
+		"id": 208,
+		"name": "NPFMCRFBK",
+		"label": "NPF MICROFINANCE BANK PLC",
+		"security_id": 208
+	}, {
+		"id": 337,
+		"name": "NSE30",
+		"label": "NSE 30 INDEX",
+		"security_id": 337
+	}, {
+		"id": 337,
+		"name": "NSE30",
+		"label": "NSE 30 INDEX",
+		"security_id": 337
+	}, {
+		"id": 338,
+		"name": "NSE50",
+		"label": "NSE 50 INDEX",
+		"security_id": 338
+	}, {
+		"id": 339,
+		"name": "NSEASEM",
+		"label": "NSE ASEM INDEX",
+		"security_id": 339
+	}, {
+		"id": 340,
+		"name": "NSEBNK",
+		"label": "NSE BANKING INDEX",
+		"security_id": 340
+	}, {
+		"id": 341,
+		"name": "NSECNSMRGDS",
+		"label": "NSE CONSUMER GOODS INDEX",
+		"security_id": 341
+	}, {
+		"id": 342,
+		"name": "NSEINDUSTR",
+		"label": "NSE INDUSTRIAL INDEX",
+		"security_id": 342
+	}, {
+		"id": 343,
+		"name": "NSEINS",
+		"label": "NSE INSURANCE INDEX",
+		"security_id": 343
+	}, {
+		"id": 344,
+		"name": "NSELOTUSISLM",
+		"label": "NSE LOTUS ISLAMIC INDEX",
+		"security_id": 344
+	}, {
+		"id": 345,
+		"name": "NSEOILGAS",
+		"label": "NSE OIL\/GAS INDEX",
+		"security_id": 345
+	}, {
+		"id": 209,
+		"name": "NSLTECH",
+		"label": "NATIONAL SPORTS LOTTERY",
+		"security_id": 209
+	}, {
+		"id": 212,
+		"name": "OANDO",
+		"label": "OANDO PLC",
+		"security_id": 212
+	}, {
+		"id": 216,
+		"name": "OKOMUOIL",
+		"label": "THE OKOMU OIL PALM PLC",
+		"security_id": 216
+	}, {
+		"id": 218,
+		"name": "OMATEK",
+		"label": "OMATEK VENTURES PLC",
+		"security_id": 218
+	}, {
+		"id": 222,
+		"name": "PAINTCOM",
+		"label": "PAINTS & COATINGS MANUFACTURES NIG. PLC",
+		"security_id": 222
+	}, {
+		"id": 224,
+		"name": "PHARMDEKO",
+		"label": "PHARMA-DEKO PLC.",
+		"security_id": 224
+	}, {
+		"id": 227,
+		"name": "PORTPAINT",
+		"label": "PORTLAND PAINTS & PRODUCTS NIGERIA PLC",
+		"security_id": 227
+	}, {
+		"id": 229,
+		"name": "PREMPAINTS",
+		"label": "PREMIER PAINTS PLC.",
+		"security_id": 229
+	}, {
+		"id": 230,
+		"name": "PRESCO",
+		"label": "PRESCO PLC",
+		"security_id": 230
+	}, {
+		"id": 231,
+		"name": "PRESTIGE",
+		"label": "PRESTIGE ASSURANCE CO. PLC.",
+		"security_id": 231
+	}, {
+		"id": 233,
+		"name": "PZ",
+		"label": "P Z INDUSTRIES PLC.",
+		"security_id": 233
+	}, {
+		"id": 234,
+		"name": "RAKUNITY",
+		"label": "RAK UNITY PETROLEUM PLC.",
+		"security_id": 234
+	}, {
+		"id": 235,
+		"name": "REDSTAREX",
+		"label": "REDSTAR EXPRESS PLC",
+		"security_id": 235
+	}, {
+		"id": 236,
+		"name": "REGALINS",
+		"label": "REGENCY ALLIANCE INSURANCE COMPANY PLC",
+		"security_id": 236
+	}, {
+		"id": 238,
+		"name": "RESORTSAL",
+		"label": "RESORT SAVINGS AND LOANS PLC ",
+		"security_id": 238
+	}, {
+		"id": 240,
+		"name": "ROADS",
+		"label": "ROADS NIGERIA PLC",
+		"security_id": 240
+	}, {
+		"id": 242,
+		"name": "ROYALEX",
+		"label": "ROYAL EXCHANGE ASSURANCE PLC.",
+		"security_id": 242
+	}, {
+		"id": 243,
+		"name": "RTBRISCOE",
+		"label": "R T BRISCOE NIGERIA PLC",
+		"security_id": 243
+	}, {
+		"id": 245,
+		"name": "SCOA",
+		"label": "S C O A NIGERIA PLC.",
+		"security_id": 245
+	}, {
+		"id": 421,
+		"name": "SDAFRILAND",
+		"label": "AFRILAND PROPERTIES PLC",
+		"security_id": 421
+	}, {
+		"id": 419,
+		"name": "SDCSCSPLC",
+		"label": "CENTRAL SECURITIES CLEARING SYSTEM PLC",
+		"security_id": 419
+	}, {
+		"id": 416,
+		"name": "SDFCWAMCO",
+		"label": "FRIESLAND CAMPINA WAMCO NIGERIA PLC",
+		"security_id": 416
+	}, {
+		"id": 417,
+		"name": "SDNDEP",
+		"label": "NIGER DELTA EXPLORATION & PRODUCTION PLC",
+		"security_id": 417
+	}, {
+		"id": 328,
+		"name": "SEPLAT",
+		"label": "SEPLAT PETROLEUM COMPANY LIMITED",
+		"security_id": 328
+	}, {
+		"id": 330,
+		"name": "SIMCAPVAL",
+		"label": "SIMCAPITAL ALLIANCE VALUE FUND",
+		"security_id": 330
+	}, {
+		"id": 247,
+		"name": "SKYEBANK",
+		"label": "SKYEBANK PLC",
+		"security_id": 247
+	}, {
+		"id": 248,
+		"name": "SKYESHELT",
+		"label": "SKYE SHELTER FUNDS",
+		"security_id": 248
+	}, {
+		"id": 249,
+		"name": "SMURFIT",
+		"label": "SMART PRODUCT NIGERIA PLC",
+		"security_id": 249
+	}, {
+		"id": 250,
+		"name": "SOVRENINS",
+		"label": "SOVEREIGN TRUST INSURANCE COMPANY PLC",
+		"security_id": 250
+	}, {
+		"id": 252,
+		"name": "STACO",
+		"label": "STANDARD TRUST ASSURANCE PLC",
+		"security_id": 252
+	}, {
+		"id": 253,
+		"name": "STANBIC",
+		"label": "STANBIC IBTC HOLDINGS PLC",
+		"security_id": 253
+	}, {
+		"id": 309,
+		"name": "STDINSURE",
+		"label": "STANDARD ALLIANCE INSURANCE PLC",
+		"security_id": 309
+	}, {
+		"id": 257,
+		"name": "STERLNBANK",
+		"label": "STERLING BANK PLC",
+		"security_id": 257
+	}, {
+		"id": 259,
+		"name": "STUDPRESS",
+		"label": "STUDIO PRESS (NIG) PLC.",
+		"security_id": 259
+	}, {
+		"id": 261,
+		"name": "TANTALIZER",
+		"label": "TANTALIZER PLC",
+		"security_id": 261
+	}, {
+		"id": 264,
+		"name": "THOMASWY",
+		"label": "THOMAS WYATT PLC.",
+		"security_id": 264
+	}, {
+		"id": 266,
+		"name": "TOTAL",
+		"label": "TOTALFINAELF NIGERIA PLC",
+		"security_id": 266
+	}, {
+		"id": 267,
+		"name": "TOURIST",
+		"label": "TOURIST COMPANY OF NIGERIA PLC",
+		"security_id": 267
+	}, {
+		"id": 410,
+		"name": "TRANSCOHOT",
+		"label": "TRANSCORP HOTEL PLC",
+		"security_id": 410
+	}, {
+		"id": 270,
+		"name": "TRANSCORP",
+		"label": "TRANSNATIONAL CORPORATION NIGERIA PLC",
+		"security_id": 270
+	}, {
+		"id": 271,
+		"name": "TRANSEXPR",
+		"label": "TRANS-NATIONWIDE EXPRESS PLC",
+		"security_id": 271
+	}, {
+		"id": 272,
+		"name": "TRIPPLEG",
+		"label": "TRIPPLE GEE AND COMPANY PLC.",
+		"security_id": 272
+	}, {
+		"id": 274,
+		"name": "UAC-PROP",
+		"label": "UACN PROPERTY DEVELOPMENT COMPANY PLC",
+		"security_id": 274
+	}, {
+		"id": 275,
+		"name": "UACN",
+		"label": "U A C NIGERIA PLC.",
+		"security_id": 275
+	}, {
+		"id": 276,
+		"name": "UBA",
+		"label": "UNITED BANK FOR AFRICA PLC",
+		"security_id": 276
+	}, {
+		"id": 278,
+		"name": "UBN",
+		"label": "UNION BANK NIG.PLC.",
+		"security_id": 278
+	}, {
+		"id": 277,
+		"name": "UCAP",
+		"label": "UNITED CAPITAL PLC",
+		"security_id": 277
+	}, {
+		"id": 319,
+		"name": "UHOMREIT",
+		"label": "UNION HOMES REAL ESTATE INVESTMENT TRUST",
+		"security_id": 319
+	}, {
+		"id": 280,
+		"name": "UNHOMES",
+		"label": "UNION HOMES SAVING AND LOANS LTD",
+		"security_id": 280
+	}, {
+		"id": 281,
+		"name": "UNIC",
+		"label": "UNIC INSURANCE PLC.",
+		"security_id": 281
+	}, {
+		"id": 282,
+		"name": "UNILEVER",
+		"label": "UNILEVER NIGERIA PLC",
+		"security_id": 282
+	}, {
+		"id": 283,
+		"name": "UNIONDAC",
+		"label": "UNION DIAGNOSTIC AND CLINICAL SERVICES PLC",
+		"security_id": 283
+	}, {
+		"id": 284,
+		"name": "UNIONDICON",
+		"label": "UNION DICON SALT PLC.",
+		"security_id": 284
+	}, {
+		"id": 287,
+		"name": "UNITYBNK",
+		"label": "UNITY BANK PLC",
+		"security_id": 287
+	}, {
+		"id": 288,
+		"name": "UNITYKAP",
+		"label": "UNITY KAPITAL ASSURANCE PLC",
+		"security_id": 288
+	}, {
+		"id": 347,
+		"name": "UNITYRIGHTS",
+		"label": "UNITYBANK RIGHTS",
+		"security_id": 347
+	}, {
+		"id": 289,
+		"name": "UNIVINSURE",
+		"label": "UNIVERSAL INSURANCE COMPANY PLC",
+		"security_id": 289
+	}, {
+		"id": 312,
+		"name": "UPDCREIT",
+		"label": "UPDCREIT",
+		"security_id": 312
+	}, {
+		"id": 291,
+		"name": "UPL",
+		"label": "UNIVERSITY PRESS PLC.",
+		"security_id": 291
+	}, {
+		"id": 293,
+		"name": "UTC",
+		"label": "U T C NIGERIA PLC",
+		"security_id": 293
+	}, {
+		"id": 294,
+		"name": "VANLEER",
+		"label": "VAN LEER CONTAINERS(NIG)PLC",
+		"security_id": 294
+	}, {
+		"id": 336,
+		"name": "VETGRIF30",
+		"label": "VETIVA GRIFFIN 30 ETF",
+		"security_id": 336
+	}, {
+		"id": 295,
+		"name": "VITAFOAM",
+		"label": "VITAFOAM NIGERIA PLC",
+		"security_id": 295
+	}, {
+		"id": 299,
+		"name": "WAPCO",
+		"label": "LAFARGE AFRICA PLC",
+		"security_id": 299
+	}, {
+		"id": 300,
+		"name": "WAPIC",
+		"label": "WEST AFRICAN PROVINCIAL INSURANCE PLC",
+		"security_id": 300
+	}, {
+		"id": 301,
+		"name": "WEMABANK",
+		"label": "WEMA BANK PLC.",
+		"security_id": 301
+	}, {
+		"id": 303,
+		"name": "ZENITHBANK",
+		"label": "ZENITH INTERNATIONAL BANK PLC",
+		"security_id": 303
+	}]
+}

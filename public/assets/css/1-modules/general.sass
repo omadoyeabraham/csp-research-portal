@@ -1,0 +1,206 @@
+/*******************************************************************
+ *  GENERAL STYLES TO BE USED ACROSS THE ENTIRE PROJECT            *
+ * ****************************************************************/
+
+*
+	border: 1px solid transparent
+
+html
+	font-size: 9px
+	height: 100%
+	width: 100%
+	background-image: url('../img/10.jpg')
+	background-size: cover
+	overflow-y: auto  
+body
+	positionn: relative
+	background-image: url('../img/10.jpg')
+	background-size: cover
+	background-repeat: no-repeat
+	color: #001
+	font-family: 'Roboto','Raleway','Lato','Open Sans', sans-serif
+	font-weight: 100
+	height: 100%
+	width: 100%
+	padding-bottomm: 20px
+	overflow-y: visible
+	.ash-page-wrapper
+		background: #ccc !important
+	.container,
+	.container-fluid,
+	.row
+		padding-right: 0px !important
+		padding-left: 0px !important
+	.row
+		margin-left: 0px !important
+		margin-right: 0px !important
+	table.cardinalstone-table
+		thead
+			background: $CardinalStone-blue !important
+			color: rgba(#fff, .9)
+			font-weight: 100 !important
+
+	@media (max-width: 767px)  
+    .nav-tabs > li 
+       width: 50%
+        border: 1px solid transparent
+    
+    .nav-tabs > li.active > a
+        border: none
+    
+    .nav > li > a:hover, .nav > li > a:focus,
+    .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus
+        background: none
+        border:none
+
+	a,
+	a:hover,
+	a:active,
+	a:focus
+		color: #000
+		font-weight: bold
+		text-decoration: none
+	.btn-reports-page
+		color: rgba(#fff, 1)
+		padding: 3px 8px
+		font-weight: 300
+
+	.btn-info
+		background-color: $CardinalStone-blue
+		border-radius: 0px
+		border-color: transparent
+		padding: 2px 15px
+		transition: all ease-in-out 200ms
+		font-weight: 200
+		color: #fff !important
+		&:hover
+			background: rgba($CardinalStone-lightBlue,1)
+			color: #fff
+			font-weight: 200
+			
+		&:focus,
+		&:active
+			outline: none
+			outline-color:  $CardinalStone-blue
+			background-color: $CardinalStone-blue
+			border-color:  $CardinalStone-blue
+	.btn-sidebar
+		background: $CardinalStone-lightBlue
+		i
+			padding: 2px
+	.btn-text-white
+		color: #fff
+	.btn-instrument-search
+	.side-table
+		box-shadow: -5px 5px 20px -10px rgba(0,0,0,0.9)
+		min-width: 350px
+		tbody
+			tr
+				th
+					background-color: $CardinalStone-blue !important
+					color: rgba(#fff, .8)
+				td
+					color: $CardinalStone-blue
+					font-size: 1.5rem
+	.card-top-color
+		border: 2px solid $CardinalStone-blue
+		border-top: 15px solid $CardinalStone-blue
+
+	.section-heading
+			padding: 5px
+			border: 3px solid $CardinalStone-blue
+			color: #fff
+			background-color: rgba($CardinalStone-blue, .9)
+			font-size: 1.5rem
+	.border-white
+		border: 2px solid white
+	.section-sub-heading
+		font-size: 1.7rem
+		font-style: italic
+	.input-span-styled
+		background-color: $CardinalStone-blue
+		color: #fff
+		font-size: 2rem
+		padding: 7px 20px
+		margin: 0
+	.my-nav-tabs > li.active > a,
+	.my-nav-tabs > li.active > a:focus,
+	.my-nav-tabs > li.active > a:hover
+		color: rgba(#fff, .9)
+		background: rgba($CardinalStone-blue, 1)
+		border: 1px solid rgba(#fff, .7)
+		border-bottom-color: transparent 
+	.my-nav-tabs 
+		a
+			color: rgba($CardinalStone-blue, 1)
+			&:hover
+				background: rgba($CardinalStone-blue, 1)
+				color: rgba(#fff, .9)
+
+	.my-nav-tabs-sidebar > li.active > a,
+	.my-nav-tabs-sidebar > li.active > a:focus,
+	.my-nav-tabs-sidebar > li.active > a:hover
+		color: rgba(#fff, .9)
+		background: rgba($CardinalStone-blue, 1)
+		border: 1px solid rgba(#fff, .7)
+		border-bottom-color: transparent 
+	.my-nav-tabs-sidebar 
+		a
+			color: rgba($CardinalStone-blue, 1)
+			&:hover
+				background: rgba($CardinalStone-blue, 1)
+				color: rgba(#fff, .9)
+
+
+	
+	select:required:invalid
+		color: #999
+	option[value=""][disabled]
+		display: none
+	option
+		color: #000
+	.text-white
+		color: #fff
+	.text-gray
+		color: gray
+	.small-text
+		font-size: 1.5rem
+	.card-primary
+		background-color: #444f73
+		border-color: transparent
+	.text-danger-custom
+		color: red !important	
+	.text-success-custom
+		color: green !important
+	.text-primary-1
+		color: black !important
+	/**
+	 *  Overwriting Bootstrap's default padding on rows
+	 */
+	.row-no-padding > [class*="col-"] 
+	    paddingg-left: 0 !important
+	    paddingg-right: 0 !important
+	    paddingg-top: 0 !important
+	    paddingg-bottom: 0 !important
+	    padding: 5px !important
+
+	/**
+	 * ALL THE BOXES IN THE MAIN CONTENT
+	 */
+	.box
+		color: rgba($CardinalStone-blue, 1)
+		background: rgba(#fff, 1)
+		border: 1px solid $CardinalStone-blue
+		border-radius: 10px
+		z-index: 99999
+		height: 300px
+		width: 365p
+		font-size: 1.3rem
+
+		.section-heading
+			color: rgba(#fff, 1)
+			border: 2px solid rgba(#fff, .2)
+			
+		table
+			margin-bottom: 0px
+		
