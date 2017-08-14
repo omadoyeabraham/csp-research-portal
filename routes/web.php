@@ -1,5 +1,6 @@
 <?php
 
+//Auth::routes();
 
 Route::get('/', 'pagesController@showHomePage');
 
@@ -26,6 +27,10 @@ Route::get('reports', 'pagesController@showReportsPage');
 Route::get('login', 'pagesController@showLoginPage');
 
 Route::get('register', 'pagesController@showRegisterPage');
+
+Route::post('register', 'Auth\RegisterController@register');
+
+Route::post('logout', 'Auth\LoginController@logout')->name('logout');
 
 Route::get('market-data', 'pagesController@showMarketDataPage');
 

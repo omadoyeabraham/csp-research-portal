@@ -2,13 +2,19 @@
 
 namespace App\Http\Controllers\Auth;
 
-use App\User;
+use App\Models\User;
 use Validator;
 use App\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\RegistersUsers;
 
+use App\Events\NewUserCreated;
+use App\Traits\ObtainZanibalUsers;
+use \StdClass;
+
 class RegisterController extends Controller
 {
+    use ObtainZanibalUsers;
+
     /*
     |--------------------------------------------------------------------------
     | Register Controller
@@ -27,7 +33,7 @@ class RegisterController extends Controller
      *
      * @var string
      */
-    protected $redirectTo = '/home';
+    protected $redirectTo = '/';
 
     /**
      * Create a new controller instance.
@@ -47,11 +53,24 @@ class RegisterController extends Controller
      */
     protected function validator(array $data)
     {
-        return Validator::make($data, [
-            'name' => 'required|max:255',
+        $validator =  Validator::make($data, [
+            'first_name' => 'required|max:255',
+            'last_name' => 'required|max:255',
+            'username' => 'required|unique:users|max:255',
             'email' => 'required|email|max:255|unique:users',
             'password' => 'required|min:6|confirmed',
         ]);
+
+        // Check to ensure that the registering email has not already been used on Zanibal
+        $validator->after(function ($validator) use ($data){
+            if( $this->userExistsOnZanibal($data['email']) )
+            {
+                $validator->errors()->add('email',  $data['email'] . ' already exists on the zanibal platform');
+            }
+        });
+
+        return $validator;
+
     }
 
     /**
@@ -62,10 +81,17 @@ class RegisterController extends Controller
      */
     protected function create(array $data)
     {
-        return User::create([
-            'name' => $data['name'],
+        
+        $newUser =  User::create([
+            'first_name' => $data['first_name'],
+            'last_name' => $data['last_name'],
             'email' => $data['email'],
+            'phone_number' => $data['phone_number'],
             'password' => bcrypt($data['password']),
         ]);
+
+        event(new NewUserCreated($newUser));
+        
+        return $newUser;
     }
 }

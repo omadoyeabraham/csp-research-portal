@@ -10,36 +10,66 @@
 						<h4>Register</h4>
 					</div>
 					<div class="card-body text-center">
-						<form role="form" class="margin-center">
-					<!-- 		<div class="row">
-								<div class="col-sm-6">
-									<input type="text" name="" placeholder="First Name" class="form-control m10 margin-center">
-								</div>
-								<div class="col-sm-6">
-									<input type="text" name="" placeholder="Last Name" class="form-control  m10 margin-center">
-								</div>
-								<div class="col-sm-6">
-									<input type="text" name="" placeholder="Email" class="form-control m10 margin-center">
-								</div>
-								<div class="col-sm-6">
-									<input type="text" name="" placeholder="Phone Number" class="form-control m10 margin-center">
-								</div>
-								<div class="col-sm-6">
-									<input type="password" name="" placeholder="Password" class="form-control m10 margin-center">
-								</div>
-								<div class="col-sm-6">
-									<input type="password" name="" placeholder="Confirm Password" class="form-control m10 margin-center">
-								</div>
-							</div> -->
+						<form role="form" class="margin-center" method="POST" action="{{ url('register') }}">
+							{{csrf_field()}}
+
+							@if (count($errors) > 0)
+							    <div class="alert alert-danger">
+							    	<a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+							        <ul>
+							            @foreach ($errors->all() as $error)
+							                <li>{{ $error }}</li>
+							            @endforeach
+							        </ul>
+							    </div>
+							@endif
 							
-							<input type="text" name="" placeholder="First Name" class="form-control w50p m10 margin-center">
-							<input type="text" name="" placeholder="Last Name" class="form-control w50p m10 margin-center">
-							<input type="text" name="" placeholder="Email" class="form-control w50p m10 margin-center">
-							<input type="text" name="" placeholder="Phone Number" class="form-control w50p m10 margin-center">
-							<input type="password" name="" placeholder="Password" class="form-control w50p m10 margin-center">
-							<input type="password" name="" placeholder="Confirm Password" class="form-control w50p m10 margin-center">
+							<!-- FIRST NAME -->
+							<div class="form-group{{ $errors->has('first_name') ? ' has-error' : '' }}">
+									<input id="first_name" type="text" name="first_name" placeholder="First Name" class="form-control w50p margin-center" value="{{ old('first_name') }}" autofocus>
+							</div>
+							<!--EOF FIRST NAME -->
+
+							<!-- LAST NAME -->
+							<div class="form-group{{ $errors->has('last_name') ? ' has-error' : '' }}">
+									<input id="last_name" type="text" name="last_name" placeholder="Last Name" class="form-control w50p  margin-center" value="{{ old('last_name') }}">
+							</div>
+							<!--EOF LAST NAME -->
+
+							<!-- USERNAME -->
+							<div class="form-group{{ $errors->has('username') ? ' has-error' : '' }}">
+									<input id="username" type="text" name="username" placeholder="Username" class="form-control w50p  margin-center" value="{{ old('username') }}">
+							</div>
+							<!--EOF USERNAME -->
+
+							<!-- EMAIL -->
+							<div class="form-group{{ $errors->has('email') ? ' has-error' : '' }}">
+									<input id="email" type="text" name="email" placeholder="Email" class="form-control w50p  margin-center" value="{{ old('email') }}">
+							</div>
+							<!--EOF EMAIL -->
+
+							<!-- PHONE NUMBER -->
+							<div class="form-group{{ $errors->has('phone_number') ? ' has-error' : '' }}">
+									<input id="phone_number" type="text" name="phone_number" placeholder="Phone Number" class="form-control w50p  margin-center" value="{{ old('phone_number') }}">
+							</div>
+							<!--EOF PHONE NUMBER -->
+
+							<!-- PASSWORD -->
+							<div class="form-group{{ $errors->has('password') ? ' has-error' : '' }}">
+									<input id="password" type="password" name="password" placeholder="Password" class="form-control w50p  margin-center" value="{{ old('password') }}">
+							</div>
+							<!--EOF PASSWORD -->
+
+							<!-- CONFIRM PASSWORD -->
+							<div class="form-group{{ $errors->has('confirm') ? ' has-error' : '' }}">
+									<input id="confirm" type="password" name="password_confirmation" placeholder="Confirm Password" class="form-control w50p  margin-center" value="{{ old('confirm') }}">
+							</div>
+							<!--EOF CONFIRM PASSWORD -->
+
 							<div class="btn btn-info mb20">
-								<i class="fa fa-user-plus" aria-hidden="true"></i><input type="submit" class="btn-fa" value="Register"></input>
+								<input type="submit" class="btn-fa" value="Register">
+									<i class="fa fa-user-plus" aria-hidden="true"></i>
+								</input>
 							</div>
 							
 						</form>

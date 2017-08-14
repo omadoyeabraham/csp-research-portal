@@ -193,14 +193,22 @@
 				<!-- <li class="nav-menu-item"><a href="{{ url('/african-global-market') }}">Admin</a></li> -->
 				<li class="nav-menu-item"> <a href="{{ url('market-data') }}">Market Data</a></li>
 				@if( Auth::guest() )
-					<li class="nav-menu-item"><a href="{{ url('/login') }}" data-toggle="modal" data-target="#loginModal">Login</a></li>
-					<!-- <li class="nav-menu-item"><a href="#">Login</a></li> -->
+					<!-- <li class="nav-menu-item"><a href="{{ url('/login') }}" data-toggle="modal" data-target="#loginModal">Login</a></li> -->
+					<li class="nav-menu-item"><a href="{{ url('/login') }}">Login</a></li>
 				@else
-					<li class="nav-menu-item"><a href="#">Logout</a></li>
+					
+					<li class="nav-menu-item">
+						<a href="{{ url('/logout') }}"  onclick="event.preventDefault();
+                                                     document.getElementById('logout-form').submit();">
+                                     Logout</a>
+					</li>
 				@endif
 				<!--li class="nav-menu-item"><a href="{{ url('api/v1/price-lists') }}">API</a></li-->
 				
 			</ul>
+			<form id="logout-form"  action="{{ route('logout') }}" method="POST" style="display: none;">
+					    {{ csrf_field() }}
+					</form>
 			<div class="hamburger"><span></span></div>
 
 			<div class="sidebar-slide-in">
