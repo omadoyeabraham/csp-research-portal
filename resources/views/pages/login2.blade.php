@@ -10,9 +10,22 @@
 						<h4>LOGIN</h4>
 					</div>
 					<div class="card-body text-center">
-						<form role="form" class="margin-center">
-							<input type="text" name="" placeholder="Email" class="form-control w50p m10 margin-center">
-							<input type="password" name="" placeholder="Password" class="form-control w50p m10 margin-center">
+						<form role="form" class="margin-center" method="POST" action="{{ url('/login') }}">
+						{{csrf_field()}}
+							
+							@if (count($errors) > 0)
+							    <div class="alert alert-danger">
+							    	<a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+							        <ul>
+							            @foreach ($errors->all() as $error)
+							                <li>{{ $error }}</li>
+							            @endforeach
+							        </ul>
+							    </div>
+							@endif
+
+							<input type="text" name="username" placeholder="Username" class="form-control w50p m10 margin-center">
+							<input type="password" name="password" placeholder="Password" class="form-control w50p m10 margin-center">
 							<div class="btn btn-info mb20">
 								<i class="fa fa-sign-in" aria-hidden="true"></i><input type="submit" class="btn-fa" value="Sign-in"></input>
 							</div>

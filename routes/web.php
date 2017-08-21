@@ -26,6 +26,8 @@ Route::get('reports', 'pagesController@showReportsPage');
 
 Route::get('login', 'pagesController@showLoginPage');
 
+Route::post('login', 'Auth\LoginController@login');
+
 Route::get('register', 'pagesController@showRegisterPage');
 
 Route::post('register', 'Auth\RegisterController@register');
