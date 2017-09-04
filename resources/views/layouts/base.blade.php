@@ -138,9 +138,19 @@
 	color: #fff;
 	box-shadow: none;
 }
-					
-							
 
+.reports-dropdown-content {
+	border-bottom: 1px solid #ccc;
+}
+
+#logout-dropdown{
+	padding: 0;
+	width: 100%;
+}
+#logout-dropdown li:hover a{
+	color: #fff;
+}
+					
 	</style>
 	<script src= "{{url('assets/js/jquery.min.js')}}"></script>
 	<!--script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script-->
@@ -173,16 +183,16 @@
 					
 					<a href="#" class="dropbtn">Reports</a>
 					<div class="dropdown-content drop-content">
-						<button type="submit" class="text-left" form="reportsFilterForm2" name="filterParameter" value="company update">
+						<button type="submit" class="text-left reports-dropdown-content" form="reportsFilterForm2" name="filterParameter" value="company update">
 							Company Updates
 						</button>
-						<button type="submit" class="text-left" form="reportsFilterForm2" name="filterParameter" value="full half year">
+						<button type="submit" class="text-left reports-dropdown-content" form="reportsFilterForm2" name="filterParameter" value="full half year">
 							Full & Half Year Reports
 						</button>
-						<button type="submit" class="text-left" form="reportsFilterForm2" name="filterParameter" value="sector report">
+						<button type="submit" class="text-left reports-dropdown-content" form="reportsFilterForm2" name="filterParameter" value="sector report">
 							Sector Reports
 						</button>
-						<button type="submit" class="text-left" form="reportsFilterForm2" name="filterParameter" value="economic update">
+						<button type="submit" class="text-left reports-dropdown-content" form="reportsFilterForm2" name="filterParameter" value="economic update">
 							Economic Reports
 						</button>
 						<a href="{{ url('/corporate-results') }}" id="corp-btn" class="text-left">Corporate Results</a>
@@ -196,12 +206,22 @@
 					<!-- <li class="nav-menu-item"><a href="{{ url('/login') }}" data-toggle="modal" data-target="#loginModal">Login</a></li> -->
 					<li class="nav-menu-item"><a href="{{ url('/login') }}">Login</a></li>
 				@else
-					
-					<li class="nav-menu-item">
+					<li class="nav-menu-item dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+                                <span class="glyphicon glyphicon-user" style="margin-right: 6px"></span>{{ Auth::user()->username }} <!-- <span class="caret"></span> -->
+                            </a>
+
+                            <ul id="logout-dropdown" class="dropdown-menu" role="menu" style="min-width: 100px">
+                                <li><a href="{{ url('/logout') }}"  onclick="event.preventDefault();
+                                                     document.getElementById('logout-form').submit();">
+                                     Logout</a></li>
+                            </ul>
+                        </li>
+					<!-- <li class="nav-menu-item">
 						<a href="{{ url('/logout') }}"  onclick="event.preventDefault();
                                                      document.getElementById('logout-form').submit();">
                                      Logout</a>
-					</li>
+					</li> -->
 				@endif
 				<!--li class="nav-menu-item"><a href="{{ url('api/v1/price-lists') }}">API</a></li-->
 				

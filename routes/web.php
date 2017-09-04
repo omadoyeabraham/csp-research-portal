@@ -1,6 +1,13 @@
 <?php
 
 //Auth::routes();
+// Route::get('storage/{type}/{all}', function(){
+// 	dd("Here");
+// })->where('all','.*');
+
+Route::get('storage/{type}/{fileName}', function(){
+	dd("Here");
+});
 
 Route::get('/', 'pagesController@showHomePage');
 

@@ -26,9 +26,12 @@
 
 							<input type="text" name="username" placeholder="Username" class="form-control w50p m10 margin-center">
 							<input type="password" name="password" placeholder="Password" class="form-control w50p m10 margin-center">
-							<div class="btn btn-info mb20">
-								<i class="fa fa-sign-in" aria-hidden="true"></i><input type="submit" class="btn-fa" value="Sign-in"></input>
-							</div>
+							
+								<button type="submit" class="btn-fa btn btn-info mb20" value="Sign-in">
+									Sign-in
+									<span><i class="fa fa-sign-in" aria-hidden="true"></i></span>
+								</button>
+							
 						</form>
 					</div>
 					<div class="card-footer text-center">
