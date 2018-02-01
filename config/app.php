@@ -187,7 +187,7 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
 
-         
+        Laravel\Socialite\SocialiteServiceProvider::class,
 
     ],
 
@@ -241,6 +241,7 @@ return [
         'Debugbar' => Barryvdh\Debugbar\Facade::class,
         'JWTAuth' => 'Tymon\JWTAuth\Facades\JWTAuth',
         'JWTFactory' => 'Tymon\JWTAuth\Facades\JWTFactory',
+        'Socialite' => Laravel\Socialite\Facades\Socialite::class,
 
     ],
 

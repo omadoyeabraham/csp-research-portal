@@ -92,7 +92,7 @@ $link-color: #337ab7;
   display: block;
 }
 .table-fixed tbody td, .table-fixed thead > tr> th {
- 
+
 }
 
 // Fix for datatables header misaligning
@@ -112,12 +112,12 @@ div.dataTables_scroll { clear: both; overflow: auto; }
 	font-weight: bold !important
 }
 
-input[type=number]::-webkit-inner-spin-button, 
-input[type=number]::-webkit-outer-spin-button { 
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
-    margin: 0; 
+    margin: 0;
 }
 
 .btn:focus,.btn:active:focus,.btn.active:focus,

@@ -1,13 +1,8 @@
 <?php
 
-//Auth::routes();
-// Route::get('storage/{type}/{all}', function(){
-// 	dd("Here");
-// })->where('all','.*');
-
-Route::get('storage/{type}/{fileName}', function(){
-	dd("Here");
-});
+// Routes for OAuth authentication via various providers
+Route::get('auth/{providerName}', 'Auth\LoginController@redirectToProvider');
+Route::get('auth/{providerName}/callback', 'Auth\LoginController@handleProviderCallback');
 
 Route::get('/', 'pagesController@showHomePage');
 
@@ -33,13 +28,13 @@ Route::get('reports', 'pagesController@showReportsPage');
 
 Route::get('login', 'pagesController@showLoginPage');
 
+// Authentication routes
 Route::post('login', 'Auth\LoginController@login');
-
+Route::post('loginWithZanibal', 'Auth\LoginController@loginWithZanibal');
 Route::get('register', 'pagesController@showRegisterPage');
-
 Route::post('register', 'Auth\RegisterController@register');
-
 Route::post('logout', 'Auth\LoginController@logout')->name('logout');
+
 
 Route::get('market-data', 'pagesController@showMarketDataPage');
 

@@ -34,6 +34,7 @@
     30 => 'App\\Providers\\AuthServiceProvider',
     31 => 'App\\Providers\\EventServiceProvider',
     32 => 'App\\Providers\\RouteServiceProvider',
+    33 => 'Laravel\\Socialite\\SocialiteServiceProvider',
   ),
   'eager' => 
   array (
@@ -127,6 +128,7 @@
     'Collective\\Html\\HtmlBuilder' => 'Collective\\Html\\HtmlServiceProvider',
     'Collective\\Html\\FormBuilder' => 'Collective\\Html\\HtmlServiceProvider',
     'Collective\\Bus\\Dispatcher' => 'Collective\\Bus\\BusServiceProvider',
+    'Laravel\\Socialite\\Contracts\\Factory' => 'Laravel\\Socialite\\SocialiteServiceProvider',
   ),
   'when' => 
   array (
@@ -170,6 +172,9 @@
     array (
     ),
     'Collective\\Bus\\BusServiceProvider' => 
+    array (
+    ),
+    'Laravel\\Socialite\\SocialiteServiceProvider' => 
     array (
     ),
   ),

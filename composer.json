@@ -12,8 +12,8 @@
         "alt-three/bus": "^2.0",
         "barryvdh/laravel-debugbar": "^2.2",
         "garygreen/pretty-routes": "^0.0.1",
-        "laravel/passport": "^1.0",
-        "tymon/jwt-auth": "0.5.*"
+        "tymon/jwt-auth": "0.5.*",
+        "laravel/socialite": "2.0"
         
     },
     "require-dev": {

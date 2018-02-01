@@ -43,7 +43,7 @@
 
 
 		<div class="row" id="sidebar-main-content-wrapper">
-			<div class=" col-sm-4 col-md-2 hidden-xs p5" >
+			<div class=" col-sm-4 col-md-2 hidden-xs p5" style="background: #FFFFFF">
 				   @include('pages.includes.homePage.sidebar-section') 
 			</div>
 			<div class=" col-sm-8 col-md-10 col-xs-12 homepage-main-content-wrapper pl5 pr5" >
@@ -72,13 +72,7 @@
 		</div>
 	</div>
 
-	<div class="container-fluid mt25 p0">
-		<div class="row">
-			<div class="col-xs-12 cols-xs-offset-3">
-				 {{-- @include('pages.includes.homePage.subscribe-section') --}}
-			</div>
-		</div>
-	</div>
+
 	
 	{{-- @include('pages.includes.homePage.nse-asi-main-graph-section') --}}
 	 @include('pages.includes.homePage.bondPage') 

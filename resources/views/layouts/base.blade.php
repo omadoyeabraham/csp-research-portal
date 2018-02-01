@@ -236,11 +236,13 @@
 					<li><a href="{{ url('/') }}">Home</a></li>
 					<li><a href="{{ url('reports') }}">Reports</a></li>
 					<li class="nav-menu-item"> <a href="{{ url('market-data') }}">Market Data</a></li>
-					@if( !Auth::guest() )
+					@if( Auth::guest() )
 					<!-- <li class="nav-menu-item"><a href="#">Login</a></li> -->
 					<li class="nav-menu-item"><a href="{{ url('/login') }}">Login</a></li>
 					@else
-						<li class="nav-menu-item"><a href="url('/logout')">Logout</a></li>
+						<li><a href="{{ url('/logout') }}"  onclick="event.preventDefault();
+						                     document.getElementById('logout-form').submit();">
+						     Logout</a></li>
 					@endif
 				</ul>
 			</div>
