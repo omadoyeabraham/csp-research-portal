@@ -1,10 +1,10 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "fd66cd2797d1aac372d5c85cd89a8b24",
+    "content-hash": "abac4c1a3b6da89a55335711f2219f9c",
     "packages": [
         {
             "name": "alt-three/bus",
@@ -4874,16 +4874,16 @@
         },
         {
             "name": "tecnickcom/tcpdf",
-            "version": "6.0.099",
+            "version": "6.2.22",
             "source": {
                 "type": "git",
                 "url": "https://github.com/tecnickcom/TCPDF.git",
-                "reference": "75e7ad39458e060d0cae6fcb7d50a2c9f3af1b01"
+                "reference": "ac6e92fccc7d9383dfd787056831349621b1aca2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/tecnickcom/TCPDF/zipball/75e7ad39458e060d0cae6fcb7d50a2c9f3af1b01",
-                "reference": "75e7ad39458e060d0cae6fcb7d50a2c9f3af1b01",
+                "url": "https://api.github.com/repos/tecnickcom/TCPDF/zipball/ac6e92fccc7d9383dfd787056831349621b1aca2",
+                "reference": "ac6e92fccc7d9383dfd787056831349621b1aca2",
                 "shasum": ""
             },
             "require": {
@@ -4892,7 +4892,6 @@
             "type": "library",
             "autoload": {
                 "classmap": [
-                    "fonts",
                     "config",
                     "include",
                     "tcpdf.php",
@@ -4913,13 +4912,13 @@
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "LGPLv3"
+                "LGPL-3.0"
             ],
             "authors": [
                 {
                     "name": "Nicola Asuni",
                     "email": "info@tecnick.com",
-                    "homepage": "http://nicolaasuni.tecnick.com"
+                    "role": "lead"
                 }
             ],
             "description": "TCPDF is a PHP class for generating PDF documents and barcodes.",
@@ -4933,7 +4932,10 @@
                 "pdf417",
                 "qrcode"
             ],
-            "time": "2014-11-15T12:35:49+00:00"
+            "support": {
+                "source": "https://github.com/tecnickcom/TCPDF/tree/master"
+            },
+            "time": "2018-09-14T15:26:29+00:00"
         },
         {
             "name": "tijsverkoyen/css-to-inline-styles",
@@ -5041,5 +5043,6 @@
     "platform": {
         "php": ">=5.6.4"
     },
-    "platform-dev": []
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
 }
